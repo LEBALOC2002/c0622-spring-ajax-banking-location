@@ -1,3 +1,4 @@
+
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 <th:block th:fragment="modalTransfer">
   <div class="modal fade" id="modalTransfer" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -26,27 +27,27 @@
                 <input type="text" class="form-control" id="senderEmailTransfer" readonly>
               </div>
               <div class="col-lg-3 mt-3">
-                <label for="senderBalanceTransfer">Sender balance (VNĐ)</label>
-                <input type="number" class="form-control" id="senderBalanceTransfer" readonly>
+                <label for="senderBalanceTransfer">Sender balance ($)</label>
+                <input type="text" class="form-control" id="senderBalanceTransfer" readonly>
               </div>
               <div class="col-lg-3 mt-3">
                 <label>Recipient Name</label>
-                <select class="form-select" id="selectRecipientsTransfer"
-                        name="selectRecipientsTransfer">
+                <select class="form-select" id="recipientIdTransfer"
+                        name="recipientIdTransfer">
                 </select>
               </div>
               <div class="col-lg-3 mt-3">
                 <label for="transferAmountTransfer">Transfer Amount</label>
-                <input type="number" class="form-control" id="transferAmountTransfer"
+                <input type="text" class="form-control" id="transferAmountTransfer"
                        name="transferAmountTransfer" value="0">
               </div>
               <div class="col-lg-3 mt-3">
-                <label for="feesTransfer">Fees (VNĐ)</label>
+                <label for="feesTransfer">Fees ($)</label>
                 <input type="number" class="form-control" id="feesTransfer" value="10">
               </div>
               <div class="col-lg-3 mt-3">
-                <label for="transactionAmountTransfer">Total amount of transaction (VNĐ)</label>
-                <input type="text" class="form-control" id="transactionAmountTransfer" readonly>
+                <label for="transactionAmountTransfer">Total amount of transaction ($)</label>
+                <input type="number" class="form-control" id="transactionAmountTransfer" readonly>
               </div>
             </div>
           </form>

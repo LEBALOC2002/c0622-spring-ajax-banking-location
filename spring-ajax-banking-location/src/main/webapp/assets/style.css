@@ -4,7 +4,7 @@ h1 {
 
 .head {
     padding: 10px;
-    background-color: #2c3034;
+    background-color: #6c757d;
 }
 
 .head .btn {
@@ -16,7 +16,7 @@ h1 {
 }
 
 header {
-    background-color: #0a8aca;
+    background-color: #6c757d;
     color: #fff;
     padding: 15px;
 }
@@ -52,8 +52,7 @@ thead {
 .modal-alert-danger label {
     display: list-item;
 }
-
-.hide{
+.hide {
     display: none;
 }
 
